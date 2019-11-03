@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/img2.png);
+    background-size: cover;
+}
+
+.luz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: sans-serif;
+    background: black;
+}
+
+h2 {
+    font-size: 6em;
+    color: #333;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h2 span {
+    animation: animate 1s linear infinite;
+}
+
+h2 span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+h2 span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+h2 span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+h2 span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+h2 span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+h2 span:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+h2 span:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+h2 span:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+@keyframes animate {
+    0%,
+    80% {
+        color: #333;
+        text-shadow: none;
+    }
+    100% {
+        color: #fff;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 160px #fff;
+    }
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+.header {
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    padding-top: 25px;
+    justify-content: flex-start;
+    height: 100px;
+    background: url(img/ec42b5fef99f17172a5b1100d653f8d1.jpg);
+}
+
+.lateral {
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    left: 240px;
+    position: absolute;
+    width: 75vw;
+    padding: 50px;
+    height: 680px;
+    text-align: center;
+    background: rgba(58, 5, 51, 0.5);
+    font-size: 20px;
+}
+
+h3,
+h4 {
+    color: white;
+    font-size: 35px;
+}
+
+.redes {
+    padding-top: 100px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    background: rgba(58, 4, 42, 0.486);
+    position: fixed;
+    left: 2px;
+    top: 50%;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.redes2 {
+    padding-top: 100px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    background: rgba(58, 4, 42, 0.486);
+    position: fixed;
+    right: 2px;
+    top: 50%;
+}
+
+ul li a {
+    margin: auto;
+    color: #fff;
+    justify-content: space-between;
+}
