@@ -15,7 +15,7 @@ body {
     align-items: center;
     height: 100px;
     font-family: sans-serif;
-    background: black;
+    background: #000;
 }
 
 h2 {
@@ -82,8 +82,6 @@ h1 {
 
 .header {
     align-items: center;
-    margin-left: 250px;
-    margin-right: 250px;
     text-align: center;
     padding-top: 25px;
     justify-content: flex-start;
@@ -92,6 +90,7 @@ h1 {
 }
 
 .lateral {
+    margin-top: 100px;
     padding-top: 200px;
     justify-content: center;
     align-items: center;
@@ -99,7 +98,7 @@ h1 {
     position: absolute;
     width: 75vw;
     padding: 50px;
-    height: 680px;
+    height: 450px;
     text-align: center;
     background: rgba(58, 5, 51, 0.5);
     font-size: 20px;
@@ -112,7 +111,7 @@ h4 {
 }
 
 .redes {
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     width: 200px;
     height: 300px;
@@ -123,8 +122,8 @@ h4 {
 }
 
 ul li {
+    margin-top: 25px;
     list-style: none;
-    margin-left: 0;
 }
 
 ul {
@@ -132,7 +131,7 @@ ul {
 }
 
 .redes2 {
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     width: 200px;
     height: 300px;
@@ -143,7 +142,5 @@ ul {
 }
 
 ul li a {
-    margin: auto;
     color: #fff;
-    justify-content: space-between;
 }
